@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Ekampreet ❤️</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(135deg, #ffd6e7, #ffb6d2, #ffe5ef);
+  color: #8d2854;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.heart {
+  position: fixed;
+  bottom: -30px;
+  color: #ff4f91;
+  font-size: 22px;
+  animation: float 8s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes float {
+  0% { transform: translateY(0) rotate(0deg); opacity: 0; }
+  20% { opacity: .8; }
+  100% { transform: translateY(-110vh) rotate(360deg); opacity: 0; }
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  width: 92%;
+  max-width: 520px;
+  margin: auto;
+  padding: 55px 0 40px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.envelope {
+  width: 260px;
+  height: 175px;
+  margin: 35px auto;
+  position: relative;
+  background: #ff6fa5;
+  border-radius: 8px;
+  box-shadow: 0 12px 30px #c94c7c55;
+  cursor: pointer;
+  transition: transform .4s;
+}
+
+.envelope:hover {
+  transform: scale(1.04);
+}
+
+.envelope:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 130px solid transparent;
+  border-right: 130px solid transparent;
+  border-top: 100px solid #ff91b9;
+  z-index: 3;
+}
+
+.envelope:after {
+  content: "❤️";
+  position: absolute;
+  top: 67px;
+  left: 112px;
+  font-size: 35px;
+  z-index: 4;
+}
+
+.open-text {
+  margin-top: 20px;
+  font-size: 15px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  50% { transform: scale(1.06); }
+}
+
+.letter {
+  display: none;
+  background: #fff9fc;
+  padding: 28px 23px;
+  border-radius: 18px;
+  text-align: left;
+  box-shadow: 0 10px 35px #bd4b7a44;
+  line-height: 1.9;
+  animation: appear .9s ease;
+}
+
+@keyframes appear {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.letter h2 {
+  text-align: center;
+  color: #e04482;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.letter p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.signature {
+  text-align: right;
+  color: #e04482;
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 25px;
+}
+
+.final {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 19px;
+  color: #e04482;
+}
+
+button {
+  border: none;
+  border-radius: 30px;
+  background: #e84c8b;
+  color: white;
+  padding: 13px 24px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 20px auto;
+  box-shadow: 0 5px 15px #e84c8b55;
+}
+
+.footer {
+  margin-top: 35px;
+  font-size: 13px;
+  opacity: .8;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>For My Ekampreet 🧿🫀💟</h1>
+<p class="subtitle">
+A little letter from someone who loves you a lot... ❤️
+</p>
+
+<div class="envelope" id="envelope" onclick="openLetter()"></div>
+
+<p class="open-text" id="hint">
+💌 Tap the envelope to open your letter 💌
+</p>
+
+<div class="letter" id="letter">
+
+<h2>My Dearest Ekampreet ❤️🥺</h2>
+
+<p>
+Mujhe pta hai ki me hrr baar aisa hi kr deta hu, baat krte krte bina btaye so jata hu. Mujhe pta hai ki ye meri glti hai aur shyd aapko bohot bura bhi lgta hoga. Lekin yrrr iss baar sach me mujhe khud bhi nhi pta chla ki meri aankh kaise lg gyi. Mujhe bohot der se nind aa rhi thi aur upr se mere sir me bhi dard ho rha tha, pta hi nhi chla kb aankh lg gyi. Maine jaanbujhkar aapko aise bilkul bhi ignore nhi kiya tha. 🥺
+</p>
+
+<p>
+Yrrr mai sch me nhi chahta ki meri vjha se aapka mood kharab ho ya aapko lge ki me aapse baat nhi krna chahta. Mujhe aapse baat krna bohot acha lgta h.
+</p>
+
+<p>
+Lekin iss baar me aapse pkka promise krta hu ki ab aisa dubara nhi hoga. Jb bhi mujhe nind aayegi na, mai aapko bta ke hi sounga. Bina btaye aise achanak se gayab nhi hounga.
+</p>
+
+<p>
+I'm really really sorry yrrr. 😭❤️
+</p>
+
+<p>
+Please iss baar maaf kr do naaa. Aage se aisi glti nhi hogi pkkaaa. Mujhe pta h me baar baar sorry bolta hu orr fir bhi aisa kr deta hu, lekin iss baar sch me apni ye aadat sudharunga.
+</p>
+
+<div class="final">
+I'M REALLY SORRYYYY MERIII JAANNNN!!<br>
+I LOVE YOU SO MUCHHH!! 🫂❤️🧿
+</div>
+
+<div class="signature">
+Yours lovingly,<br>
+Anirudh (gadha) 😂❤️
+</div>
+
+</div>
+
+<button id="closeBtn" onclick="closeLetter()" style="display:none">
+Close Letter 💌
+</button>
+
+<div class="footer">
+Made with endless love for Ekampreet ❤️
+</div>
+
+</div>
+
+<script>
+function openLetter() {
+  document.getElementById("letter").style.display = "block";
+  document.getElementById("envelope").style.display = "none";
+  document.getElementById("hint").style.display = "none";
+  document.getElementById("closeBtn").style.display = "inline-block";
+
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: "smooth"
+  });
+}
+
+function closeLetter() {
+  document.getElementById("letter").style.display = "none";
+  document.getElementById("envelope").style.display = "block";
+  document.getElementById("hint").style.display = "block";
+  document.getElementById("closeBtn").style.display = "none";
+
+  window.scrollTo({top: 0, behavior: "smooth"});
+}
+
+function createHeart() {
+  const heart = document.createElement("div");
+  heart.className = "heart";
+  heart.innerHTML = ["❤️","💕","💗","💖","🧿"][
+    Math.floor(Math.random()*5)
+  ];
+
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.animationDuration = (5 + Math.random()*5) + "s";
+  heart.style.fontSize = (15 + Math.random()*20) + "px";
+
+  document.body.appendChild(heart);
+
+  setTimeout(() => heart.remove(), 10000);
+}
+
+setInterval(createHeart, 450);
+</script>
+
+</body>
+  </html>
+  
